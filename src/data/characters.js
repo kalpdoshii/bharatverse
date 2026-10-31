@@ -3,12 +3,48 @@ export const characters = [
     id: 'vayu', number: '001', name: 'VAYU', realName: 'Arjun Mehta', element: 'Vayu-shakti', role: 'THE RELUCTANT HERO', city: 'Dharavi, Mumbai',
     description: 'A structural engineer caught between a vanished sister, a dangerous experiment, and an ancient force that has awakened inside him.',
     powers: ['Atmospheric control', 'Supersonic flight', 'Pressure sense', 'Vacuum strike'],
-    theme: 'wind', accent: '#d9e9ef', image: '/images/vayu-poster.jpg', imageAlt: 'Replace with your official cinematic Vayu poster'
+    theme: 'wind', accent: '#d9e9ef', image: '/images/vayu-poster.jpg', status: 'AWAKENED',
+    weakness: 'Plasma and extreme heat disrupt his pressure sense; underground, his command of the atmosphere is limited. His sister Priya remains his deepest vulnerability.',
+    story: 'The Man Who Became Wind',
   },
   {
     id: 'jal', number: '002', name: 'JAL', realName: 'Zara Shaikh', element: 'Jal-shakti', role: 'THE MORALLY GREY ANTIHERO', city: 'Chennai Port District',
     description: 'A smuggler and fixer who can command the ocean, move through connected waters, and sense what the currents conceal. Trust is her rarest weakness.',
     powers: ['Fluid command', 'Pressure dive', 'Hydro-phase', 'Current read'],
-    theme: 'water', accent: '#78dce8', image: '/images/jal-poster.jpg', imageAlt: 'Replace with your official cinematic Jal poster'
-  }
+    theme: 'water', accent: '#79d7e8', image: '/images/jal-poster.jpg', status: 'AWAKENED',
+    weakness: 'Intense heat and a true desert strip her of advantage. Her own refusal to trust anyone can be more dangerous than an enemy.',
+    story: 'The Ocean Within',
+  },
+  {
+    id: 'agni', number: '003', name: 'AGNI', realName: 'Major Aditya Shekhawat', element: 'Agni-shakti', role: 'THE SOLDIER WHO BECAME FIRE', city: 'Pokhran, Rajasthan',
+    description: 'An Army Special Forces officer recruited into Project Havan. The force beneath Pokhran turned him into a living thermal weapon—and made obedience a question he can no longer avoid.',
+    powers: ['Thermal command', 'Plasma lance', 'Ember skin', 'Heat sight'],
+    theme: 'fire', accent: '#f0a35a', image: '/images/agni-poster.jpg', status: 'ACTIVE',
+    weakness: 'Water suppresses his output. His power consumes his body fuel; overuse can leave him shaking, exhausted and unable to stand.',
+    story: 'The Third Force',
+  },
+  {
+    id: 'prithvi', number: '004', name: 'PRITHVI', realName: 'Dhara Prajapati', element: 'Prithvi-shakti', role: 'THE KEEPER OF THE GROUND', city: 'Khavda, Kutch',
+    description: 'A potter from a family shaped by the Rann. Chosen as a child by the sleeping force beneath Dholavira, Dhara can move earth and absorb the violence that travels through it.',
+    powers: ['Terra-shaping', 'Mass shift', 'Seismic sense', 'Hush'],
+    theme: 'earth', accent: '#c6a879', image: '/images/prithvi-poster.jpg', status: 'AWAKENED',
+    weakness: 'She needs contact with the ground. Overuse can leave her body stiff like fired clay; lifted off the earth, her strength is greatly reduced.',
+    story: 'Mitti',
+  },
+  {
+    id: 'akash', number: '005', name: 'AKASH', realName: 'Priya Mehta', element: 'Akash-shakti', role: 'THE CONDUIT', city: 'Meru Station, Himalayas',
+    description: 'A physicist who became the lattice’s living conduit. Priya can sense, relay and steady the other forces—but Meridian believes she is the key to controlling them all.',
+    powers: ['Lattice perception', 'Force conduction', 'Silence field', 'Resonance stabilisation'],
+    theme: 'sky', accent: '#b7a8dc', image: '/images/akash-poster.jpg', status: 'HELD AT MERU',
+    weakness: 'Kampan units can pull her out of phase. A forced full link carries a catastrophic cost; her consent is central to the lattice.',
+    story: 'The Girl Beyond the Sky',
+  },
+  {
+    id: 'acharya', number: '006', name: 'ACHARYA', realName: 'Anand Kulkarni', element: 'THE LISTENER', role: 'THE ARCHITECT OF THE LATTICE', city: 'Meru Station, Himalayas',
+    description: 'A former Raksha Division director who heard the earth’s hum at Pokhran in 1974. Teacher, strategist and architect of Project Havan, he has spent a lifetime deciding when the world should listen—and when it should be forced to.',
+    powers: ['Geophysical resonance', 'Lattice knowledge', 'Kampan engineering', 'Strategic orchestration'],
+    theme: 'acharya', accent: '#c4b7a0', image: '/images/acharya-poster.jpg', status: 'ALIVE · PRESUMED DEAD',
+    weakness: 'The hum is slowly destroying its receiver. His plan to become the human node at the centre of the lattice is expected to kill him.',
+    story: 'The Man Who Listened',
+  },
 ];
